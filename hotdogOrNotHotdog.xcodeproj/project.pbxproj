@@ -13,6 +13,7 @@
 		D32FB1902758388300C9CEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32FB18E2758388300C9CEF9 /* Main.storyboard */; };
 		D32FB1922758388900C9CEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32FB1912758388900C9CEF9 /* Assets.xcassets */; };
 		D32FB1952758388900C9CEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32FB1932758388900C9CEF9 /* LaunchScreen.storyboard */; };
+		D32FB19D275853EC00C9CEF9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D32FB19C275853EC00C9CEF9 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D32FB1912758388900C9CEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32FB1942758388900C9CEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32FB1962758388900C9CEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32FB19C275853EC00C9CEF9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D32FB1912758388900C9CEF9 /* Assets.xcassets */,
 				D32FB1932758388900C9CEF9 /* LaunchScreen.storyboard */,
 				D32FB1962758388900C9CEF9 /* Info.plist */,
+				D32FB19C275853EC00C9CEF9 /* Inceptionv3.mlmodel */,
 			);
 			path = hotdogOrNotHotdog;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				D32FB18D2758388300C9CEF9 /* ViewController.swift in Sources */,
 				D32FB1892758388300C9CEF9 /* AppDelegate.swift in Sources */,
 				D32FB18B2758388300C9CEF9 /* SceneDelegate.swift in Sources */,
+				D32FB19D275853EC00C9CEF9 /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
